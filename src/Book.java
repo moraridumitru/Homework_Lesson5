@@ -15,7 +15,7 @@ class Book {
     private int year;
     private int pageCount;
     private double price;
-
+    // initializam constructorul Book
     public Book(int id, String title, String author, String edition, int year, int pageCount, double price) {
         this.id = id;
         this.title = title;
@@ -92,11 +92,11 @@ class BookCollection {
         books = new ArrayList<>();
     }
 
-    public void addBook(Book book) {
+    public void addBook(Book book) {       //This method takes a Book object as a parameter and adds it to the books list.
         books.add(book);
     }
 
-    public List<Book> getBooksByAuthor(String author) {
+    public List<Book> getBooksByAuthor(String author) {       //This method takes an author name as a parameter and returns a list of Book objects that have the specified author.
         List<Book> result = new ArrayList<>();
         for (Book book : books) {
             if (book.getAuthor().equals(author)) {

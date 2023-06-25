@@ -15,7 +15,7 @@ public class BookCollectionDemo {
         // Get the list of books by a given author
         List<Book> booksByAuthor = bookCollection.getBooksByAuthor("Author 1");
         System.out.println("Список книг автора 'Author 1':");
-        for (Book book : booksByAuthor) {
+        for (Book book : booksByAuthor) {                      //In this loop, each element of the books list is assigned to the variable book in each iteration. The loop will execute the code block for each element in the books list.
             System.out.println(book.getTitle());
         }
 
