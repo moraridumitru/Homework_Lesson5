@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c125bdfe-8448-48ae-8ef0-02148632ac4b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BookCollectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookCollectionDemo.java" afterDir="false" />
     </list>
@@ -46,6 +45,18 @@
       <option name="presentableId" value="Default" />
       <updated>1687678319420</updated>
     </task>
+    <task id="LOCAL-00001" summary="Java Collections">
+      <created>1687680100066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687680100066</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java Collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Collections" />
   </component>
 </project>
